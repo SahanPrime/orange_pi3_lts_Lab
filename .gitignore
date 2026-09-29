@@ -53,3 +53,29 @@ dkms.conf
 
 # debug information files
 *.dwo
+
+
+# SD card / disk images
+*.img
+*.img.xz
+*.zip
+*.tar.gz
+
+# Yocto build artifacts
+tmp/
+sstate-cache/
+downloads/
+
+# Python
+__pycache__/
+.venv/
+
+# Secrets: never commit
+*.pem
+id_rsa*
+*.key
+.env
+
+# Captures
+*.vcd
+*.pcap
