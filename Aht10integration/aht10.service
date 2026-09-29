@@ -1,0 +1,11 @@
+[Unit]
+Description=AHT10 sensor logger
+After=multi-user.target
+
+[Service]
+ExecStart=/usr/bin/python3 /home/orangepi/Documents/orange_pi3_lts_Lab/Aht10integration/aht10_logger.py 0
+Restart=on-failure
+RestartSec=5
+
+[Install]
+WantedBy=multi-user.target
