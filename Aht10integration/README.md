@@ -124,23 +124,15 @@ journalctl -u aht10.service -f
 
 ## Screenshots
 
-Use this folder for the board wiring photos, terminal output screenshots, and service-status images related to the AHT10 setup.
+These screenshots show the working AHT10 setup on the Orange Pi 3 LTS.
 
-Recommended files:
+![CSV log output](images/01-csv-log-output.svg)
 
-- `images/aht10_wiring.jpg`
-- `images/aht10_i2c_detect.png`
-- `images/aht10_terminal_output.png`
-- `images/aht10_systemctl_status.png`
+![Systemd service status](images/02-systemd-service-status.svg)
 
-Once those files are added to the repo, you can reference them inline like this:
+![I2C environment configuration](images/03-i2c-environment-config.svg)
 
-```md
-![AHT10 wiring](images/aht10_wiring.jpg)
-![AHT10 I2C detect](images/aht10_i2c_detect.png)
-![AHT10 sensor logger terminal](images/aht10_terminal_output.png)
-![AHT10 systemd status](images/aht10_systemctl_status.png)
-```
+![GPIO readall output](images/04-gpio-readall-output.svg)
 
 ## Reference and project location
 
