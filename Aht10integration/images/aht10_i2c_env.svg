@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="720" viewBox="0 0 1280 720">
+  <rect width="100%" height="100%" fill="#000000"/>
+  <g fill="#d9d9d9" font-family="monospace" font-size="18">
+    <text x="40" y="40" fill="#20c20e">orangepi@orangepi3-lts:~$</text>
+    <text x="40" y="80" fill="#d9d9d9">cat orangepiEnv.txt</text>
+    <text x="40" y="116" fill="#d9d9d9">verbosity=1</text>
+    <text x="40" y="142" fill="#d9d9d9">bootlogo=false</text>
+    <text x="40" y="168" fill="#d9d9d9">console=both</text>
+    <text x="40" y="194" fill="#d9d9d9">disp_mode=1920x1080p60</text>
+    <text x="40" y="220" fill="#d9d9d9">overlay_prefix=sun50i-h6</text>
+    <text x="40" y="246" fill="#d9d9d9">overlays=i2c0</text>
+    <text x="40" y="272" fill="#d9d9d9">rootdev=UUID=792a9869-ea88-4ebc-8332-bf68179d73f85</text>
+    <text x="40" y="298" fill="#d9d9d9">rootfstype=ext4</text>
+    <text x="40" y="324" fill="#d9d9d9">usbstoragequirks=0x2537:0x1006:u,0x2537:0x1068:u</text>
+  </g>
+</svg>
