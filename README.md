@@ -25,6 +25,7 @@ The `Aht10integration/` directory contains:
 
 - `aht10_logger.py` — Python script that reads temperature and humidity from an AHT10 sensor and logs values to `/var/log/aht10.csv`
 - `aht10.service` — systemd unit that runs the logger automatically at boot
+- `README.md` — detailed documentation for the AHT10 integration, wiring, service setup, and troubleshooting
 
 This example demonstrates:
 
@@ -34,13 +35,19 @@ This example demonstrates:
 - logging measurements in CSV format
 - running as a background service on Linux
 
+For the full setup guide, wiring notes, example output, and service documentation, see:
+
+- `Aht10integration/README.md`
+
 ## Repository structure
 
 ```text
 orange_pi3_lts_Lab/
 ├── Aht10integration/
+│   ├── README.md
 │   ├── aht10_logger.py
-│   └── aht10.service
+│   ├── aht10.service
+│   └── images/
 ├── .gitignore
 ├── README.md
 └── LICENSE (if added later)
