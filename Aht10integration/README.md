@@ -8,7 +8,7 @@ The example logs measurements to `/var/log/aht10.csv` and also prints sensor rea
 
 - `aht10_logger.py` — reads temperature and humidity from the AHT10 sensor and writes CSV log output
 - `aht10.service` — systemd unit to run the logger automatically at boot
-- `images/` — optional folder for wiring and terminal screenshots related to this project
+- `images/` — folder for wiring photos and terminal screenshots related to this project
 
 ## Overview
 
@@ -122,6 +122,26 @@ journalctl -u aht10.service -f
 - No CSV output: confirm the script is running and the logger has permission to write to `/var/log/`
 - Wrong sensor readings: check power supply, cable connections, and whether the board is using the expected I2C bus
 
+## Screenshots
+
+Use this folder for the board wiring photos, terminal output screenshots, and service-status images related to the AHT10 setup.
+
+Recommended files:
+
+- `images/aht10_wiring.jpg`
+- `images/aht10_i2c_detect.png`
+- `images/aht10_terminal_output.png`
+- `images/aht10_systemctl_status.png`
+
+Once those files are added to the repo, you can reference them inline like this:
+
+```md
+![AHT10 wiring](images/aht10_wiring.jpg)
+![AHT10 I2C detect](images/aht10_i2c_detect.png)
+![AHT10 sensor logger terminal](images/aht10_terminal_output.png)
+![AHT10 systemd status](images/aht10_systemctl_status.png)
+```
+
 ## Reference and project location
 
 The complete project documentation is linked from the main repository README:
@@ -130,19 +150,6 @@ The complete project documentation is linked from the main repository README:
 - `Aht10integration/README.md` for the detailed sensor setup and service notes
 
 This keeps the top-level project overview clean while keeping the hardware-specific instructions close to the actual code and service files.
-
-## Screenshots
-
-This section is intended for images related to the sensor setup, wiring, terminal output, and systemd verification.
-
-Recommended screenshot files to keep in this folder:
-
-- `images/aht10_wiring.jpg`
-- `images/aht10_terminal_output.png`
-- `images/aht10_systemctl_status.png`
-- `images/aht10_i2c_detect.png`
-
-Add the images in the `images/` directory and then reference them here if needed.
 
 ## Summary
 
